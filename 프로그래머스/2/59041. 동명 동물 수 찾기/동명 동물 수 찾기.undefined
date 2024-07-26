@@ -1,0 +1,6 @@
+SELECT name, count(name) as cnt
+FROM ANIMAL_INS 
+where name is not null 
+group by name 
+having cnt > 1
+order by name asc
