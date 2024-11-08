@@ -10,7 +10,6 @@ function countCoke(a, b, n) {
             surplustBottle -= (a - n);
             n += (a - n);
         }
-        
         earnedCoke = Math.floor(n / a) * b;
         answer += earnedCoke;
         surplustBottle += n % a;
