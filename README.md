@@ -17,6 +17,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0217-contains-duplicate](https://github.com/liha-engineer/CodeKATA/tree/master/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/liha-engineer/CodeKATA/tree/master/0242-valid-anagram) |
 | [3046-split-the-array](https://github.com/liha-engineer/CodeKATA/tree/master/3046-split-the-array) |
 ## Counting
 |  |
@@ -26,4 +27,9 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0217-contains-duplicate](https://github.com/liha-engineer/CodeKATA/tree/master/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/liha-engineer/CodeKATA/tree/master/0242-valid-anagram) |
+## String
+|  |
+| ------- |
+| [0242-valid-anagram](https://github.com/liha-engineer/CodeKATA/tree/master/0242-valid-anagram) |
 <!---LeetCode Topics End-->
