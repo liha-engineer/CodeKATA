@@ -6,6 +6,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 ## Array
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/liha-engineer/CodeKATA/tree/master/0049-group-anagrams) |
 | [0217-contains-duplicate](https://github.com/liha-engineer/CodeKATA/tree/master/0217-contains-duplicate) |
 | [3046-split-the-array](https://github.com/liha-engineer/CodeKATA/tree/master/3046-split-the-array) |
 | [3379-transformed-array](https://github.com/liha-engineer/CodeKATA/tree/master/3379-transformed-array) |
@@ -16,6 +17,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 ## Hash Table
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/liha-engineer/CodeKATA/tree/master/0049-group-anagrams) |
 | [0217-contains-duplicate](https://github.com/liha-engineer/CodeKATA/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/liha-engineer/CodeKATA/tree/master/0242-valid-anagram) |
 | [3046-split-the-array](https://github.com/liha-engineer/CodeKATA/tree/master/3046-split-the-array) |
@@ -26,10 +28,12 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 ## Sorting
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/liha-engineer/CodeKATA/tree/master/0049-group-anagrams) |
 | [0217-contains-duplicate](https://github.com/liha-engineer/CodeKATA/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/liha-engineer/CodeKATA/tree/master/0242-valid-anagram) |
 ## String
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/liha-engineer/CodeKATA/tree/master/0049-group-anagrams) |
 | [0242-valid-anagram](https://github.com/liha-engineer/CodeKATA/tree/master/0242-valid-anagram) |
 <!---LeetCode Topics End-->
