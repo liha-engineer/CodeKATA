@@ -6,6 +6,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 ## Array
 |  |
 | ------- |
+| [0217-contains-duplicate](https://github.com/liha-engineer/CodeKATA/tree/master/0217-contains-duplicate) |
 | [3046-split-the-array](https://github.com/liha-engineer/CodeKATA/tree/master/3046-split-the-array) |
 | [3379-transformed-array](https://github.com/liha-engineer/CodeKATA/tree/master/3379-transformed-array) |
 ## Simulation
@@ -15,9 +16,14 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 ## Hash Table
 |  |
 | ------- |
+| [0217-contains-duplicate](https://github.com/liha-engineer/CodeKATA/tree/master/0217-contains-duplicate) |
 | [3046-split-the-array](https://github.com/liha-engineer/CodeKATA/tree/master/3046-split-the-array) |
 ## Counting
 |  |
 | ------- |
 | [3046-split-the-array](https://github.com/liha-engineer/CodeKATA/tree/master/3046-split-the-array) |
+## Sorting
+|  |
+| ------- |
+| [0217-contains-duplicate](https://github.com/liha-engineer/CodeKATA/tree/master/0217-contains-duplicate) |
 <!---LeetCode Topics End-->
