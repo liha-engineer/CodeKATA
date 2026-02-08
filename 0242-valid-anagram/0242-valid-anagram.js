@@ -4,24 +4,23 @@
  * @return {boolean}
  */
 const isAnagram = function(s, t) {
-    if (s.length !== t.length ) return false;
+const sMap = new Map()
+const tMap = new Map()
 
-    const sMap = new Map()
-    const tMap = new Map()
+if (s.length !== t.length) return false;
 
-    for (const letter of s) {
-        const sFrequnecy = (sMap.get(letter) ?? 0 ) + 1
-        sMap.set(letter, sFrequnecy) 
-    }
+for (let i = 0; i < s.length; i++) {
+    const sFreq = (sMap.get(s[i]) ?? 0) + 1
+    const tFreq = (tMap.get(t[i]) ?? 0) + 1
+    sMap.set(s[i], sFreq)
+    tMap.set(t[i], tFreq)
+}
 
-    for (const letter of t) {
-        const tFrequnecy = (tMap.get(letter) ?? 0 ) + 1
-        tMap.set(letter, tFrequnecy) 
-    }
+if (sMap.size !== tMap.size) return false;
 
-    for (const [key, value] of sMap) {
-        if((tMap.get(key) ?? 0) !== value) return false;
-    } 
-    return true
-
+for (let i = 0; i < s.length; i++) {
+    console.log(sMap.get(t[i]), tMap.get(t[i]))
+    if(sMap.get(t[i]) !== tMap.get(t[i])) return false
+}
+return true
 };
