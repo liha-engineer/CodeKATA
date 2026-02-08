@@ -3,25 +3,18 @@
  * @return {number[]}
  */
 const constructTransformedArray = function(nums) {
-    const result = new Array(nums.length)
+    let moving, answer = [];
 
-    for (let i = 0; i < nums.length ; i++) {
+    for (let i = 0; i < nums.length; i++) {
         if (nums[i] > 0) {
-            result[i] = nums[(i + nums[i]) % nums.length]
-
+            moving = (i + nums[i]) % nums.length
+            answer.push(nums[moving])
         } else if (nums[i] < 0) {
-            // 음수인 경우 왼쪽으로 이동 
-            const k = Math.abs(nums[i])
-            const len = nums.length 
-            const left = k % len
-            const negativeIndex = (i + (len - left)) % len
-            result[i] = nums[negativeIndex] 
+            moving = ((i - Math.abs(nums[i])) % nums.length + nums.length) % nums.length
+            answer.push(nums[moving]) 
+        } else if (nums[i] === 0) {
+            answer.push(nums[i])
         }
-        if (nums[i] === 0) {
-         result[i] = nums[i]   
-        }
-        console.log(result)
     }
-    return result;
+    return answer;
 };
-
